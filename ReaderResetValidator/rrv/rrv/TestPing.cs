@@ -15,6 +15,7 @@ namespace rrv
         }
         /// <summary>
         /// Alters rdrRecList to add the result status
+        /// adding more comments
         /// </summary>
         /// <param name="rdrRecList"></param>
         /// <returns></returns>

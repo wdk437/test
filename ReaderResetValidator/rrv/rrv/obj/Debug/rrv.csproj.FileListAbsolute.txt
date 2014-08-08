@@ -43,3 +43,6 @@ E:\ReaderResetValidator\rrv\rrv\obj\Debug\MainWindow.baml
 E:\ReaderResetValidator\rrv\rrv\obj\Debug\rrv.g.resources
 E:\ReaderResetValidator\rrv\rrv\obj\Debug\rrv.Properties.Resources.resources
 E:\ReaderResetValidator\rrv\rrv\obj\Debug\rrv.csproj.GenerateResource.Cache
+C:\GitStorage\ReaderResetValidator\rrv\rrv\bin\Debug\rrv.exe.config
+C:\GitStorage\ReaderResetValidator\rrv\rrv\obj\Debug\rrv.exe
+C:\GitStorage\ReaderResetValidator\rrv\rrv\obj\Debug\rrv.pdb
