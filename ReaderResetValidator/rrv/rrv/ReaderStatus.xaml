@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="rrv.ReaderStatus"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+    <UserControl.Resources>
+        <DataTemplate x:Key="ReaderLabelTemplate">
+            <TextBlock Foreground="MediumBlue" FontSize="12" FontFamily="Courier New" HorizontalAlignment="Left" Text="{Binding Path=Label}" />
+        </DataTemplate>
+        <DataTemplate x:Key="ReaderIPTemplate">
+            <TextBlock Foreground="MediumBlue" FontSize="12" FontFamily="Courier New" HorizontalAlignment="Left" Text="{Binding Path=IP}" />
+        </DataTemplate>
+        <DataTemplate x:Key="ReaderStatusTemplate">
+            <Ellipse Height="10" HorizontalAlignment="Left" Stroke="Black" VerticalAlignment="Top" Width="10" Fill="{Binding Path=StatusColor}" />
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid Width="506">
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="442*" />
+            <ColumnDefinition Width="58*" />
+        </Grid.ColumnDefinitions>
+        <ListView ItemsSource="{Binding}" Name="ReaderListView" HorizontalAlignment="Left" VerticalAlignment="Top" Width="500" Height="Auto" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView >
+                    <GridView.Columns>
+                        <GridViewColumn CellTemplate="{StaticResource ReaderLabelTemplate}"  Header="Reader" Width="150"></GridViewColumn>
+                        <GridViewColumn CellTemplate="{StaticResource ReaderIPTemplate}" Header="IP" Width="150" ></GridViewColumn>
+                        <GridViewColumn CellTemplate="{StaticResource ReaderStatusTemplate }" Header="Status" Width="50"  ></GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View> 
+        </ListView>
+    </Grid>
+</UserControl>
