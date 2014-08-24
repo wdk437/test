@@ -1,0 +1,6 @@
+C:\GitStorage\testprog\testprog\bin\Debug\testprog.exe.config
+C:\GitStorage\testprog\testprog\bin\Debug\testprog.exe
+C:\GitStorage\testprog\testprog\bin\Debug\testprog.pdb
+C:\GitStorage\testprog\testprog\obj\Debug\testprog.csprojResolveAssemblyReference.cache
+C:\GitStorage\testprog\testprog\obj\Debug\testprog.exe
+C:\GitStorage\testprog\testprog\obj\Debug\testprog.pdb
